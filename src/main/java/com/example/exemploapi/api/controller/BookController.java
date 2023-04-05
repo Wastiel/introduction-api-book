@@ -32,7 +32,7 @@ public class BookController {
         return ResponseEntity.ok(bookService.create(book));
     }
 
-  @PutMapping
+    @PutMapping
     public ResponseEntity<Book> update(@RequestBody Book book){
         return ResponseEntity.ok(book);
     }
